@@ -1,1 +1,28 @@
 /* здесь подключите шрифты*/
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url(/source/fonts/montserrat/montserrat-regular.woff2) format("woff2"),
+    url(/source/fonts/montserrat/montserrat-regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url(/source/fonts/montserrat/montserrat-medium.woff2) format("woff2"),
+    url(/source/fonts/montserrat/montserrat-medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url(/source/fonts/montserrat/montserrat-600.woff2) format("woff2"),
+    url(/source/fonts/montserrat/montserrat-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url(/source/fonts/montserrat/montserrat-700.woff2) format("woff2"),
+    url(/source/fonts/montserrat/montserrat-700.woff) format("woff");
+}

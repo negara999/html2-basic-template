@@ -1,0 +1,94 @@
+.hero__slider {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+  max-height: 656px;
+}
+
+.slider-arrow {
+
+}
+
+.hero__slider-ofer {
+  color: var(--base-primary, #7859CF);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.hero__slider-title {
+  color: var(--base-black, #333);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.72px;
+  width: 100%;
+  max-width: 280px;
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.hero__slider-text {
+  color: var(--base-black, #333);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  max-width: 280px;
+  position: absolute;
+  top: 45%;
+  margin-left: 13px;
+}
+
+.hero__slider-order {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  bottom: 38%;
+  margin-left: 75px;
+}
+
+.hero__slider-price {
+  display: flex;
+  gap: 6px;
+  align-self: center;
+}
+
+.hero__slider-previous-price {
+  color: var(--base-primary, #7859CF);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  text-decoration: line-through;
+}
+
+.hero__slider-current-price {
+  color: var(--base-black, #333);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.hero__slider-button-text {
+  color: var(--base-white, #FFFFFf);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 5px;
+}

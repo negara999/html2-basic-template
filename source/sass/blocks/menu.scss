@@ -1,0 +1,23 @@
+.menu__icon-text {
+  display: none;
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  @media (min-width: 1440px) {
+    display: inline-block;
+  }
+}
+
+.menu__icon-link, .menu__cart-link {
+  display: flex;
+  align-items: center;
+}

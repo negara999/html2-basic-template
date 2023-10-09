@@ -2,13 +2,73 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Название проекта</title>
+    <title>Drink2Go</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
-    <header class="header">Шапка</header>
-
+    <header class="header">
+      <div class="header-wrapper">
+        <a href="#" class="site-icon-link link">
+          <picture>
+            <img src="/images/icons/stack.svg#new-logo" class="site-logo" alt="site-logo." width="32" height="36">
+            <img src="/images/icons/stack.svg#tablet__site-logo" class="tablet__site-logo" alt=" tablet__site-logo." width="82" height="36">
+            <img src="/images/icons/stack.svg#desktop__site-logo" class="desktop__site-logo" alt="desktop__site-logo" width="170" height="36">
+          </picture>
+    </a>
+    <p class="header__site-info">Интернет-магазин кофейных напитков</p>
+    <div class="header__navigation-wrapper">
+      <a href="/" class="navigation__item-link">
+        <p class="navigation__item navigation__item--main">Главная</p>
+      </a>
+      <a href="/" class="navigation__item-link">
+        <p class="navigation__item">Каталог</p>
+      </a>
+      <a href="/" class="navigation__item-link">
+        <p class="navigation__item">Доставка</p>
+      </a>
+      <a href="/" class="navigation__item-link">
+        <p class="navigation__item">О нас</p>
+      </a>
+    </div>
+    <div class="header__menu-wrapper">
+      <div class="header__menu-items">
+      <a href="#" class="menu__icon-link link">
+    <img src="/images/icons/stack.svg#user-icon"  class="user-icon icons" alt="user-logo." width="16" height="16">
+    <p class="menu__icon-text">Войти</p>
+  </a>
+    <a href="#" class="menu__cart-link link">
+      <img src="/images/icons/stack.svg#cart-icon"  class="cart-icon icons" alt="cart-icon." width="16" height="16">
+    <p class="menu__icon-text">Корзина</p>
+    </a>
+  </div>
+    <a href="#" class="menu__burger-link link">
+    <img src="/images/icons/stack.svg#burger-icon"  class="burger-icon icons" alt="burger-icon." width="16" height="16">
+  </a>
+  </div>
+</div>
+</header>
+<main class="main-page">
+  <div class="hero">
+    <div class="hero__slider">
+    <img src="/images/icons/stack.svg#slider-arrow-left" class="slider-arrow slider-arrow-left" alt="slider-arrow-left." width="20" height="656">
+    <img src="/images/Images/slider_img.png" alt="slider-image." class="hero__image" srcset="/images/Images/slider_img@2x.png 2x" width="280" height="280"/>
+    <img src="/images/icons/stack.svg#slider-arrow-right" class="slider-arrow slider-arrow-right" alt="slider-arrow-right." width="20" height="656">
+  </div>
+  <h2 class="hero__slider-ofer">Новинка!</h2>
+  <h1 class="hero__slider-title">Декаф Флэт Уайт</h1>
+  <p class="hero__slider-text">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
+  <div class="hero__slider-order">
+  <div class="hero__slider-price">
+    <p class="hero__slider-previous-price">295₽</p>
+    <p class="hero__slider-current-price">225₽</p>
+  </div>
+  <button type="button" class="hero__slider-button page-button">
+    <p class="hero__slider-button-text">Заказать</p>
+  </button>
+  </div>
+  </div>
+</main>
     <script src="js/script.js" defer></script>
   </body>
 </html>
