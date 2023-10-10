@@ -18,6 +18,7 @@
     </a>
     <p class="header__site-info">Интернет-магазин кофейных напитков</p>
     <div class="header__navigation-wrapper">
+
       <a href="/" class="navigation__item-link">
         <p class="navigation__item navigation__item--main">Главная</p>
       </a>
@@ -50,11 +51,27 @@
 </header>
 <main class="main-page">
   <div class="hero">
-    <div class="hero__slider">
     <img src="/images/icons/stack.svg#slider-arrow-left" class="slider-arrow slider-arrow-left" alt="slider-arrow-left." width="20" height="656">
-    <img src="/images/Images/slider_img.png" alt="slider-image." class="hero__image" srcset="/images/Images/slider_img@2x.png 2x" width="280" height="280"/>
     <img src="/images/icons/stack.svg#slider-arrow-right" class="slider-arrow slider-arrow-right" alt="slider-arrow-right." width="20" height="656">
+    <div class="hero__slider" id="slider">
+      <picture>
+        <source type="image/webp"
+        media="(min-width: 1440px)"
+        srcset="images/Images/desktop__slider-img.webp, images/Images/desktop__slider-img@2x.webp 2x">
+        <source
+        type="image/webp"
+        media="(min-width: 768px)"
+        srcset="images/Images/tablet__slider-img.webp , images/Images/tablet__slider-img@2x.webp 2x"
+      />
+      <source media="(min-width: 1440px)" srcset="images/Images/desktop__slider-img.png, images/Images/desktop__slider-img@2x.png 2x">
+      <source
+        media="(min-width: 768px)"
+        srcset="images/Images/tablet__slider-img.png, images/Images/tablet__slider-img@2x.png "
+      />
+    <img src="/images/Images/slider_img.png" alt="slider-image." class="hero__image" srcset="/images/Images/slider_img@2x.png 2x" width="280" height="280"/>
+  </picture>
   </div>
+  <div class="hero__slider-info" id="info">
   <h2 class="hero__slider-ofer">Новинка!</h2>
   <h1 class="hero__slider-title">Декаф Флэт Уайт</h1>
   <p class="hero__slider-text">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
@@ -66,6 +83,7 @@
   <button type="button" class="hero__slider-button page-button">
     <p class="hero__slider-button-text">Заказать</p>
   </button>
+  </div>
   </div>
   </div>
 </main>

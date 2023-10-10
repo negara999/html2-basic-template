@@ -1,12 +1,6 @@
 .header {
   //background-color: #663399;
-  color: #ffffff;
   //padding: 10px 15px;
-}
-
-.site-logo {
-  margin-left: 20px;
-  margin-right: 60px;
 }
 
 .header-wrapper {
@@ -14,15 +8,15 @@
   max-height: 60px;
   align-items: center;
   width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 60px;
 
   @media (min-width: 768px) {
     height: 80px;
   }
 }
 
-.icons {
-  padding: 22px;
-}
 
 .burger-icon {
   display: inline-block;
@@ -38,6 +32,10 @@
 
 .site-logo {
   display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+
+
 
   @media (min-width: 768px) {
     display: none;
@@ -94,9 +92,14 @@
 }
 
 .header__menu-wrapper {
+  margin-right: 22px;
   display: flex;
+  gap: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__menu-items {
   display: flex;
+  gap: 44px;
 }
