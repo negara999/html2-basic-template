@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   flex-direction: column;
+  background-color: #f3ebe1;
 
   @media (min-width: 768px) {
     flex-direction: column-reverse;
@@ -79,6 +80,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-bottom: 60px;
 
   @media (min-width: 768px) {
     margin-top: 20px;

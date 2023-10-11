@@ -1,0 +1,25 @@
+.catalog__title {
+  color: var(--base-primary, #7859CF);
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+.catalog__heading {
+  color: var(--base-black, #333333);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.catalog__price {
+  display: flex;
+  flex-direction: column;
+}
