@@ -1,0 +1,127 @@
+.catalog__cards-list {
+  list-style: none;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  @media (min-width: 1440px) {
+    position: relative;
+    bottom: 50%;
+    right: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1011px;
+    width: 100%;
+  }
+}
+
+.catalog__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__item-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__item-info {
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+  max-width: 240px;
+
+  @media (min-width: 768px) {
+    max-width: 289px;
+  }
+}
+
+.catalog__item-title {
+  color: var(--base-black, #333333);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  width: 100%;
+  max-width: 240px;
+
+
+  @media (min-width: 768px) {
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 289px;
+  }
+}
+
+.catalog__item-image {
+  align-self: center;
+}
+
+.catalog__item-price {
+  color: var(--base-black, #333);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.catalog__item-price-info {
+  display: flex;
+  margin-top: 16px;
+  gap: 50px;
+
+  @media (min-width: 768px) {
+    justify-content: space-between;
+  }
+}
+
+.catalog__item-button {
+  background-color: #7859CF;
+  display: flex;
+  gap: 6px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 141px;
+  height: 100%;
+  max-height: 36px;
+  padding: 8px 20px;
+}
+
+.catalog__item-button-text {
+  color: var(--base-white, #FFFfff);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.catalog__page-navigation {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 40px;
+}
+
+.catalog__page-selection {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.catalog__slider-arrow {
+  position: absolute;
+  color: #7859CF;
+}
