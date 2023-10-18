@@ -20,4 +20,12 @@
 .menu__icon-link, .menu__cart-link {
   display: flex;
   align-items: center;
+
+  @media (min-width: 1440px) {
+    gap: 8px;
+  }
+}
+
+.menu__burger-link {
+  margin-top: 8px;
 }

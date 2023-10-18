@@ -1,5 +1,13 @@
 .footer {
   display: flex;
+  flex-direction: column;
+}
+
+.footer__wrapper {
+  @media (min-width: 1440px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .footer__social-items {
@@ -83,3 +91,4 @@
     max-width: 728px;
   }
 }
+

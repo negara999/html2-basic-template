@@ -144,22 +144,18 @@
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 5px;
-
-  @media (min-width: 768px) {
-
-  }
 }
 
 .slider-arrow-left {
   position: absolute;
-  top: 10%;
+  top: 13%;
   transform: translateY(-50px);
 }
 
 .slider-arrow-right {
   position: absolute;
-  top: 10%;
-  right: 8%;
+  right: 0%;
+  top: 13%;
   transform: translateY(-50px);
 }
 

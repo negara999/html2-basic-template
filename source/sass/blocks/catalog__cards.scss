@@ -97,15 +97,21 @@
   height: 100%;
   max-height: 36px;
   padding: 8px 20px;
+
+  @media (min-width: 1440px) {
+    padding: 8px;
+  }
 }
 
 .catalog__item-button-text {
-  color: var(--base-white, #FFFfff);
+  color: var(--base-white, #ffffff);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+
+
 }
 
 .catalog__page-navigation {
