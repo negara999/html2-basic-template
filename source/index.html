@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
-    <header class="header">
+    <header data-test="header" class="header">
       <div class="header-wrapper">
         <a href="#" class="site-icon-link link">
           <picture>
@@ -33,25 +33,25 @@
     </div>
     <div class="header__menu-wrapper">
       <div class="header__menu-items">
-      <a href="#" class="menu__icon-link link">
+      <button type="button" class="menu__icon-link link">
     <img src="/images/icons/stack.svg#user-icon"  class="user-icon icons" alt="user-logo." width="16" height="16">
     <p class="menu__icon-text">Войти</p>
-  </a>
-    <a href="#" class="menu__cart-link link">
+  </button>
+    <button type="button" class="menu__cart-link link">
       <img src="/images/icons/stack.svg#cart-icon"  class="cart-icon icons" alt="cart-icon." width="16" height="16">
     <p class="menu__icon-text">Корзина</p>
-    </a>
+  </button>
   </div>
-    <a href="#" class="menu__burger-link link">
+    <button type="button" class="menu__burger-link link js-toggle-button">
     <img src="/images/icons/stack.svg#burger-icon"  class="burger-icon icons" alt="burger-icon." width="16" height="16">
-  </a>
+  </button>
   </div>
 </div>
 </header>
 <main class="main-page">
-  <div class="hero">
-    <img src="/images/icons/stack.svg#slider-arrow-left" class="slider-arrow slider-arrow-left" alt="slider-arrow-left." width="20" height="656">
-    <img src="/images/icons/stack.svg#slider-arrow-right" class="slider-arrow slider-arrow-right" alt="slider-arrow-right." width="20" height="656">
+  <div data-test="hero" class="hero">
+    <img src="/images/icons/stack.svg#slider-arrow-left" class="slider-arrow slider-arrow-prev" alt="slider-arrow-left." width="20" height="656">
+    <img src="/images/icons/stack.svg#slider-arrow-right" class="slider-arrow slider-arrow-next" alt="slider-arrow-right." width="20" height="656">
     <ul class="hero__slider">
       <li class="hero__slide">
     <div class="hero__image">
@@ -91,7 +91,7 @@
       </li>
 </ul>
   </div>
-  <div class="features">
+  <div data-test="features" class="features">
     <div class="features__info">
       <h2 class="features__title">Преимущества</h2>
       <h2 class="features__heading">Главные причины выбрать Drink2Go</h2>
@@ -119,7 +119,7 @@
       </div>
     </div>
   </div>
-  <div class="catalog">
+  <div data-test="catalog" class="catalog">
     <h2 class="catalog__title">Каталог</h2>
     <h2 class="catalog__heading">Каталог кофейных напитков</h2>
     <div class="catalog__features">
@@ -287,7 +287,7 @@
   </ul>
 </div>
 
-<section class="map">
+<section data-test="map" class="map">
   <picture>
     <source type="image/webp"
         media="(min-width: 1440px)"
@@ -309,7 +309,7 @@
 </section>
 </main>
 
-<footer class="footer">
+<footer data-test="footer" class="footer">
   <div class="footer__wrapper">
   <ul class="footer__social-items">
     <a href="/">
